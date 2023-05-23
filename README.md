@@ -1,17 +1,17 @@
-Project Scenario: We are considering an Hospital Environment to demonstrate the Genetic Algorithm solution to solve Infinite Monkey’s Problem. In Hospital Project there are two factories namely, 1. Branch_Factroy and 2. Staff Factory. These factories are contained in the abstract factory which is named as Hospital_Factory . In each simple factory there are object instances which are being created as and when requested by the client side. For example each instance is of the sub-class defined as follows:
-For Staff Factory there are 3 concrete implementations of Staff as
+# Project Scenario: We are considering an Hospital Environment to demonstrate the Genetic Algorithm solution to solve Infinite Monkeyâ€™s Problem. In Hospital Project there are two factories namely, 1. Branch_Factroy and 2. Staff Factory. These factories are contained in the abstract factory which is named as Hospital_Factory . In each simple factory there are object instances which are being created as and when requested by the client side. For example each instance is of the sub-class defined as follows:
+## For Staff Factory there are 3 concrete implementations of Staff as
 1.	Doctor.java which prints the name and experience of the doctor.
 2.	Nurse.java which prints her suggestion.
 3.	SupportBoy.java which prints he is available or not.
-This Printing of Output is done and demonstrated with the help of Genetic Algorithm solving approach to the Shakespeare’s Monkey’s Problem.
+This Printing of Output is done and demonstrated with the help of Genetic Algorithm solving approach to the Shakespeareâ€™s Monkeyâ€™s Problem.
 
-Similarly for Branch_Factory there are 3 concrete implementations of Branches as
+## Similarly for Branch_Factory there are 3 concrete implementations of Branches as
 1.	Maynooth.java which prints address of Maynooth hospital branch.
 2.	Dublin.java which prints address of Dublin hospital branch.
 3.	Galway.java which prints address of Galway hospital branch.
-Again this Printing of Output is done and demonstrated with the help of Genetic Algorithm solving approach to the Shakespeare’s Monkey’s Problem.
+Again this Printing of Output is done and demonstrated with the help of Genetic Algorithm solving approach to the Shakespeareâ€™s Monkeyâ€™s Problem.
 
-Packages and inside package class Description:
+### Packages and inside package class Description:
 1. package driver_runner: this package contains the Driver.java (main() class)
 	a. Driver.java: The client programmer that is user uses this class to get the ouput as desired.
 
@@ -46,7 +46,7 @@ Packages and inside package class Description:
 	c. SubStrategy_A.java: This class is sub-class of Doctor_Strategy which prints the Doctor's name (Ruchi Kashiwala) present in it.
 	d. SubStrategy_B.java: This class is sub-class of Doctor_Strategy which prints the Doctor's name (Shreyas Angchekar) present in it.
 
-Running the code: 
+### Running the code: 
 The Following Sample  explains how to run code with comments over it explaining the stuff.
 
 public static void main (String [] args) {

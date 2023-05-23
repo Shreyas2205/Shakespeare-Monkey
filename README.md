@@ -1,4 +1,7 @@
-# Project Scenario: We are considering an Hospital Environment to demonstrate the Genetic Algorithm solution to solve Infinite Monkey’s Problem. In Hospital Project there are two factories namely, 1. Branch_Factroy and 2. Staff Factory. These factories are contained in the abstract factory which is named as Hospital_Factory . In each simple factory there are object instances which are being created as and when requested by the client side. For example each instance is of the sub-class defined as follows:
+# Project Scenario:
+
+## We are considering an Hospital Environment to demonstrate the Genetic Algorithm solution to solve Infinite Monkey’s Problem. In Hospital Project there are two factories namely, 1. Branch_Factroy and 2. Staff Factory. These factories are contained in the abstract factory which is named as Hospital_Factory . In each simple factory there are object instances which are being created as and when requested by the client side. For example each instance is of the sub-class defined as follows:
+
 ## For Staff Factory there are 3 concrete implementations of Staff as
 1.	Doctor.java which prints the name and experience of the doctor.
 2.	Nurse.java which prints her suggestion.
